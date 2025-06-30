@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500&display=swap');
+
+
+
+                    /*    Общие стили     */
+
+body {
+	margin: 0;
+	font-family: "Cormorant Garamond", sans-serif;
+	max-width: 1200;
+	background-color: #C9C0B8;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+.btn-callback{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 10px;
+
+	width: 200px;
+	height: 45px;
+
+	background: #D9D9D9;
+	border-radius: 20px;
+	font-size: 22px;
+}
+
+                         /* Шапка */
+
+
+.company__name {
+	font-size: 45px;
+	text-align: center;
+	font-family: "Ibarra Real Nova";
+	margin-top: -45px;
+}
+
+.header__list {
+	font-size: 25px;
+	display: flex;
+}
+.header__main-info {
+	margin-left: 140px;
+	margin-top: 37px;
+}
+
+.header li:not(:last-child){ 
+	margin-right: 70px;
+  }
+
+
+.icon_telephone{
+	width: 24px;
+	height: 24px;
+	margin-top: 5px;
+}
+
+.telephone-number{
+	font-family: "Montserrat", "Cormorant Garamond", serif;
+	font-size: 27px;
+	margin-left: 30px;
+}
+
+.header__telephone-number{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 200px;
+	margin-top: -40px;
+}
+
+.header .container__btn-callback{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+	margin-right: 180px;
+}
+
+                     /* Приветственная секция */
+
+.welcome {
+  background-image: url(/images/main_page.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50%;
+  margin-top: -317px; 
+  
+}
+
+
+.container__discription{
+	min-height: 101vh;
+	margin-top: 1px;
+
+
+}
+
+
+
+
